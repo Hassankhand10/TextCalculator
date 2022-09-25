@@ -1,0 +1,27 @@
+.formElementMargin {
+  margin: 10px 0;
+}
+
+.formRowElementMargin {
+  margin-right: 10px;
+}
+
+.typeTextField {
+  width: 250px;
+}
+
+.nameTextField {
+  width: 300px;
+}
+
+.insertButton {
+  width: 110px;
+  height: 45px; 
+  border-radius: 25px;
+  background-color: black;
+
+  &:hover {
+    background-color: gray;
+  }
+
+}

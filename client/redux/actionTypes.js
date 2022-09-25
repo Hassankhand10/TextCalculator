@@ -1,0 +1,1 @@
+export const SET_TABLE_HEADERS = "SET_TABLE_HEADERS";

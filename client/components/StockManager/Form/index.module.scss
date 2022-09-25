@@ -1,0 +1,33 @@
+.formElementMargin {
+  margin: 10px 0;
+}
+
+.formRowElementMargin {
+  margin-right: 10px;
+}
+
+.gridColumn1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryTextField, .unitTextField {
+  width: 250px;
+}
+
+.insertButton {
+  width: 110px;
+  height: 45px; 
+  border-radius: 25px;
+  background-color: black;
+
+  &:hover {
+    background-color: gray;
+  }
+
+}
+
+.unitsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
